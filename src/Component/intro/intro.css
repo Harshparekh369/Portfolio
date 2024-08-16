@@ -1,0 +1,54 @@
+#intro{
+    height: calc(100vh-4rem);
+    width: 110vw;
+    
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+}
+.introcontent{
+    height: 100dvh;
+    width: 110vw;
+    padding: 6rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.hello{
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+.introname{
+    color: yellow;
+}
+.intropara{
+    font-size: 2.5rem;
+    font-weight:20rem;
+    
+}
+.btn{
+    margin: 1rem 0;
+    background: white;
+    padding: 1rem 2.3rem;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 2rem;
+}
+.bgimg{
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    height: 80vh;
+    width: 50%;
+    right: 0;
+
+}
+
+.CV {
+    display: flex;
+    gap: 10px; 
+}

@@ -1,0 +1,133 @@
+
+#contactpage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+    flex-direction: row;
+    
+  }
+  
+  #contact {
+    width: 100%;
+    max-width: 1000px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .contactpagetitle {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .contactdesc {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    color: #666;
+  }
+  
+  .contactform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .contactform input,
+  .contactform textarea {
+    width: 100%;
+    max-width: 800px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box;
+  }
+  
+  .contactform textarea {
+    resize: vertical;
+  }
+  
+  .submitbtn {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submitbtn:hover {
+    background-color: #0056b3;
+  }
+  
+  .links {
+    margin-top: 20px;
+  }
+  
+  .social-icon {
+    font-size: 2.5rem;
+    color: #333;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    color: #007BFF;
+  }
+  
+  @media (max-width: 768px) {
+    .contactform {
+      gap: 10px;
+    }
+  }
+    .contactform input,
+    .contactform textarea {
+      max-width: 100%;
+    }
+    #contact-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    #contact {
+      width: 100%;
+      max-width: 800px;
+    }
+    
+    .contactform {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .name, .email, .msg, .submitbtn {
+      margin-bottom: 10px;
+    }
+    
+    .links {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      margin-top: 20px;
+    }
+    
+    .link-item {
+      margin: 10px 0;
+    }
+    
+    .link-item a {
+      color: #333; /* Adjust the color as needed */
+      transition: color 0.3s ease;
+    }
+    
+    .link-item a:hover {
+      color: #0073e6; /* Adjust the hover color as needed */
+    }
+    
